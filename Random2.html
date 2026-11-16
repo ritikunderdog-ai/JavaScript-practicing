@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <center> Simple add calculator</center>
+</head>
+<body>
+
+
+   <input id ="num1">
+   <input id ="num2">
+   <button onclick="addfunction123()">
+    CLICK here to ADD
+   </button>
+
+   <p id = "result"> Result will showing here</p> 
+</body>
+
+   <script>
+    function addfunction123()
+{
+    var snum1 = document.getElementById("num1").value;
+    var snum2 = document.getElementById("num2").value;
+
+    var result = Number(snum1)+ Number(snum2)
+  
+    document.getElementById("result").innerHTML = result;
+}
+
+   </script>
+    <title>Document</title>
+
+</html>
